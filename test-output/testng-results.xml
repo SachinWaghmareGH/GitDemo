@@ -2,24 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-03T18:29:50 IST" name="Default suite" finished-at="2024-07-03T18:31:18 IST" duration-ms="88073">
+  <suite started-at="2024-07-03T21:03:44 IST" name="Default suite" finished-at="2024-07-03T21:04:40 IST" duration-ms="55982">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@4145bad8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-07-03T18:29:50 IST" name="Default test" finished-at="2024-07-03T18:31:18 IST" duration-ms="88073">
-      <class name="FW24.Tests.GitWriteaaaAndUplodCodeUser2_1">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:FW24.Tests.GitWriteaaaAndUplodCodeUser2_1@6b81ce95]" started-at="2024-07-03T18:29:50 IST" name="launchApplication" finished-at="2024-07-03T18:31:07 IST" duration-ms="77128" status="PASS">
+    <test started-at="2024-07-03T21:03:44 IST" name="Default test" finished-at="2024-07-03T21:04:40 IST" duration-ms="55982">
+      <class name="cucumber.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@4145bad8]" started-at="2024-07-03T21:03:44 IST" name="setUpClass" finished-at="2024-07-03T21:03:48 IST" duration-ms="3831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3aed69dd]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="test1()[pri:0, instance:FW24.Tests.GitWriteaaaAndUplodCodeUser2_1@6b81ce95]" started-at="2024-07-03T18:31:07 IST" name="test1" finished-at="2024-07-03T18:31:07 IST" duration-ms="143" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@4145bad8]" started-at="2024-07-03T21:03:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T21:04:40 IST" duration-ms="51894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test of submiting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the product from ecommerce website"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FW24.Tests.GitWriteaaaAndUplodCodeUser2_1@6b81ce95]" started-at="2024-07-03T18:31:07 IST" name="tearDown" finished-at="2024-07-03T18:31:17 IST" duration-ms="10465" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@4145bad8]" started-at="2024-07-03T21:04:40 IST" name="tearDownClass" finished-at="2024-07-03T21:04:40 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- FW24.Tests.GitWriteaaaAndUplodCodeUser2_1 -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNGTestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
